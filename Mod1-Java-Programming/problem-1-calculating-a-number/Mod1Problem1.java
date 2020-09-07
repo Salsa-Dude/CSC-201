@@ -1,3 +1,19 @@
+
+/*
+
+ * Prompt the user to enter their student ID
+ * Generate a chapter number based on the student ID by dividing the ID by 3 and consider the remainder and increment by 3
+ * Generate a problem exercise based on the value of the chapter number. 
+ * - If the chapter number is 3, divide the student ID by 34, consider the remainder and increment it by 1 
+ * - If the chapter number is 4, divide the student ID by 38, consider the remainder and increment it by 1
+ * - If the chapter number is 5, divide the student ID by 46, consider the remainder and increment it by 1. 
+ * Ask the user to enter the page number 
+ * Display the requirement for the programming exercise by using the chapter number, problem exercise, and page number.
+
+*/
+
+
+
 import java.util.Scanner;
 
 public class Mod1Problem1 {
