@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 // get 4 numbers from the user
+
 public class Mod1Problem4 {
 
 	public static void main(String[] args) {
