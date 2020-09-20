@@ -1,5 +1,17 @@
 import java.util.Scanner;
 
+/* 
+ * Create an array with a length of 5 to represent the different box categories
+ * Ask the user to enter the total number of girls and save it into a variable called numberOfGirls
+ * Use the value of numberOfGirls to create another array that represents the boxes for each girl
+ * Create a For loop from 1 to the value of numberOfGirls and for each iteration
+ *  - Print out Boxes of cookies for girl #i
+ *  - Save the input into a variable called boxInput
+ *  - Since we are starting from 1, subtract boxInput by 1 and save it to the the value of boxesArray[i -1] to keep track of each girl's sold boxes
+ *  - Use the boxInput to also keep track on which box category to increment by using a if/else statement
+ * 
+ */
+
 public class Mod2Problem1 {
 
 	public static void main(String[] args) {
