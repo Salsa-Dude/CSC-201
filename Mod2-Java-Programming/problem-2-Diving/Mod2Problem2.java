@@ -1,18 +1,23 @@
 import java.util.Scanner;
 
 /*
- * 
- * 
- * 
- * 
- * 
- * 
+ * Save the number of judges as a variable
+ * Create a inputValidScore method that prints a message to the user to enter a score and returns that score
+ * Create a inputAllScore method that creates an array based on the number of judges
+ * - For each iteration call the inputValidScore method and save the return value to the array.
+ * Have the method return the array
+ * Create a inputValidDegreeOfDifficulty method that prints a message to the user to enter a degree of difficulty score between 1.2 - 3.8 and returns that score
+ * Create a calculateScore method that takes in an array
+ * -  Sort the array by finding the smallest number in the array and swaps it with the first element. It then finds the smallest number remaining and swaps it the the second element and so on.
+ * - Once the array has been sorted, For loop through the array excluding the first and last number which will be the Max and Min. 
+ * - For each iteration add the value to the sum counter
+ * - Once the for loop completes, multiply the sum and the degree of difficulty score
+ * - Then multiply by 0.6 and return the total sum.
  */
 
 public class Mod2Problem2 {
 	
 	static final int judges = 7;
-	static int counter = 0;
 	static Scanner input = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -27,8 +32,6 @@ public class Mod2Problem2 {
 	public static double inputValidScore(int judgeNumber) {
 		System.out.println("Judge " + "#" + judgeNumber + " Enter a score between 0.0 - 10.0");
 		double scoreInput = input.nextDouble();
-		
-		counter += 1;
 		
 		return scoreInput;
 		
